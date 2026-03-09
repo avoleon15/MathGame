@@ -1,0 +1,1 @@
+MathGame, sumas, restas, cuenta con distintos niveles de dificultad, la dificultad incrementa cuando pasan los niveles. Un juego simple y sencillo donde el jugador tiene tres vidas, si se acaban las vidas pierde.
