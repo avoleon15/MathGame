@@ -1,0 +1,89 @@
+
+.number {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 40px;
+    font-family: 'Arvo', cursive;
+    font-weight: 900;
+    color: #404B69;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+.correctAnimation{
+    background-color: greenyellow;
+}
+
+.incorrectAnimation{
+    background-color: rgb(253, 13, 0);
+}
+
+.set {
+    margin: 10% auto;
+}
+
+.lvl1Text{
+    font-size: 50px;
+    font-family: 'Arvo', cursive;
+    font-weight: 900;
+    color: #404B69;
+    text-shadow: 3px 0 #DBEDF3;
+    text-align: center;
+    margin: 10px;
+}
+
+
+.lvl1Color{
+    background-image: linear-gradient(45deg, #8bdce7, #908462); /* Example colors and angle */
+}
+
+.lvl2Color{
+        animation: colorTransition 2s infinite alternate;
+        animation-timing-function: ease-in-out; /* Smooth transition */
+}
+
+@keyframes colorTransition {
+    0% {
+        background-image: linear-gradient(45deg, #8bdce7, #908462);
+    }
+
+    100% {
+        background-image: linear-gradient(45deg, #06707e, #8b7331);;
+    }
+}
+
+
+body{
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.heart{
+    width: 70px;
+    height: 70px;
+    background-image: url("./images/heart.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.mainBox{
+    background-color:rgba(230, 230, 250, 0.696);
+    margin-top: 100px;
+    padding-bottom: 80px;
+    border: 2px solid #404B69;
+    border-radius: 5%;
+}
